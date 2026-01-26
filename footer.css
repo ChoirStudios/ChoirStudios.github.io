@@ -59,6 +59,10 @@ footer nav button {
   padding: 1.2vw 5vw;
 }
 
+footer nav img {
+  width: 6vw;
+}
+
 footer #title {
   display: flex;
   justify-content: center;
