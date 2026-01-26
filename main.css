@@ -41,7 +41,7 @@ main {
 }
 
 main section {
-  padding: 2vw 14vw;
+  padding: 2vw 20vw;
   display: flex;
   flex-direction: row;
   gap: 6vw;
@@ -55,8 +55,27 @@ main section content {
 }
 
 /* Blocks */
+main section h1 {
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 1vw;
+}
+
 main section h2 {
+  font-size: 2.8vw;
+  font-weight: 500;
+  line-height: 1vw;
+}
+
+main section h3 {
   font-size: 2vw;
+  font-weight: 320;
+  line-height: 1vw;
+}
+
+main section h5 {
+  font-size: 2vw;
+  font-weight: 380;
   line-height: 0vw;
 }
 
