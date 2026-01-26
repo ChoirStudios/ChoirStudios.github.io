@@ -15,7 +15,8 @@
   --a4a08165-7fb4-4139-a577-6eef8a521f9f: #e6a4f4;
   --0cbc23af-08ba-4603-b0d4-faf972f132fb: #6e0f83;
   --d53153c5-2bb6-4e80-8a94-25578440e6e1: #fefefe;
-  --6b1ee82f-3cb6-4887-b0fd-57c6d8aeea60: #0b020e;
+  --b6fb159a-a975-467c-ace7-66acf494b503: #0b020e;
+  --6b1ee82f-3cb6-4887-b0fd-57c6d8aeea60: #000000;
   --34ace198-814d-4bdd-a836-f8d0bd5d73f1: #fdf8ff;
   --ebc70766-d6f5-475d-8006-409067ec6ef6: #322738;
   --fab086d1-ad61-4538-9c7f-c8f016f77d40: #f8f4fa;
@@ -65,17 +66,22 @@ main section content {
   gap: 2vw;
 }
 
+/* Layout */
+* main {
+  padding: 4vw 0vw 6vw 0vw;
+}
+
 /* Blocks */
 * section h1 {
-  font-size: 3vw;
+  font-size: 3.4vw;
   font-weight: 600;
   line-height: 1vw;
 }
 
 * section h2 {
   font-size: 2.8vw;
-  font-weight: 500;
-  line-height: 1vw;
+  font-weight: 530;
+  line-height: 0.4vw;
 }
 
 * section h3 {
