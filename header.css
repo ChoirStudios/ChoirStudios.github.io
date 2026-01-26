@@ -64,7 +64,7 @@ header nav button {
 header #title {
   display: flex;
   justify-content: center;
-  padding: 8vw 12vw 16vw 12vw;
+  padding: 8vw 12vw 24vw 12vw;
 }
 
 /* Blocks */
