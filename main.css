@@ -41,10 +41,10 @@ main {
 }
 
 main section {
-  padding: 5vw 11vw;
+  padding: 2vw 14vw;
   display: flex;
   flex-direction: row;
-  gap: 2vw;
+  gap: 6vw;
 }
 
 main section content {
@@ -56,20 +56,20 @@ main section content {
 
 /* Blocks */
 main section h2 {
-  font-size: 2.5vw;
-  line-height: 2vw;
+  font-size: 2vw;
+  line-height: 0vw;
 }
 
 main section p {
-  font-size: 2vw;
-  font-weight: 300;
-  line-height: 2vw;
+  font-size: 1.4vw;
+  font-weight: 310;
+  line-height: 1.5vw;
   color: var(--6b1ee82f-3cb6-4887-B0FD-57c6d8aeea60);
 }
 
 main section img {
-  width: 24vw;
-  height: 24vw;
+  width: 20vw;
+  height: 20vw;
 }
 
 /* Scrollbar */
