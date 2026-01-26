@@ -43,43 +43,41 @@ footer {
   flex-direction: column;
 }
 
+footer img {
+  padding: 12vw 4vw;
+}
+
 footer nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 1.2vw 3vw;
+  padding: 13vw 3vw;
 }
 
 footer nav ul {
   display: flex;
-  gap: 8vw;
+  flex-direction: column;
+  gap: 2vw;
 }
 
 footer nav button {
   padding: 1.2vw 5vw;
 }
 
-footer #title {
+footer section {
   display: flex;
-  justify-content: center;
-  padding: 8vw 12vw 12vw 12vw;
+  flex-direction: row;
+  gap: 2vw;
+}
+
+footer section content {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  gap: 2vw;
 }
 
 /* Blocks */
-footer img {
-  width: 1vw;
-}
-
-footer nav button {
-  font-size: 1vw;
-}
-
-footer nav ul {
-  font-size: 1.2vw;
-}
-
-footer #title h1 {
-  text-align: center;
-  font-size: 7.9vw;
-  font-weight: 900;
+footer section content img {
+  width: 26vw;
 }
