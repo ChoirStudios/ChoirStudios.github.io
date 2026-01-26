@@ -15,8 +15,8 @@
   --0cbc23af-08ba-4603-b0d4-faf972f132fb: #6e0f83;
   --d53153c5-2bb6-4e80-8a94-25578440e6e1: #fefefe;
   --6b1ee82f-3cb6-4887-b0fd-57c6d8aeea60: #000000;
-  --34ace198-814d-4bdd-a836-f8d0bd5d73f1: #f3eaf7;
-  --fab086d1-ad61-4538-9c7f-c8f016f77d40: #faf1fe;
+  --34ace198-814d-4bdd-a836-f8d0bd5d73f1: #fdf8ff;
+  --fab086d1-ad61-4538-9c7f-c8f016f77d40: #f8f4fa;
 }
 
 /* Styling */
@@ -30,7 +30,7 @@ main section:nth-child(even) {
 }
 
 main section content p {
-  font-weight: 300;
+  font-weight: 250;
   color: var(--6b1ee82f-3cb6-4887-B0FD-57c6d8aeea60);
 }
 
@@ -41,10 +41,10 @@ main {
 }
 
 main section {
-  padding: 8vw 11vw;
+  padding: 5vw 11vw;
   display: flex;
   flex-direction: row;
-  gap: 1.5vw;
+  gap: 2vw;
 }
 
 main section content {
