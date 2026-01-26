@@ -59,10 +59,6 @@ footer nav button {
   padding: 1.2vw 5vw;
 }
 
-footer nav img {
-  width: 1vw;
-}
-
 footer #title {
   display: flex;
   justify-content: center;
@@ -70,8 +66,8 @@ footer #title {
 }
 
 /* Blocks */
-footer nav img {
-  width: 10vw;
+footer img {
+  width: 1vw;
 }
 
 footer nav button {
