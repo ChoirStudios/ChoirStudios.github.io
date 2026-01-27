@@ -58,7 +58,7 @@ header nav ul {
 }
 
 header nav button {
-  padding: 1.2vw 5vw;
+  padding: 1vw 4.5vw;
 }
 
 header #title {
@@ -69,15 +69,15 @@ header #title {
 
 /* Blocks */
 header nav img {
-  width: 10vw;
+  width: 14vw;
 }
 
 header nav button {
-  font-size: 1vw;
+  font-size: 1.3vw;
 }
 
 header nav ul {
-  font-size: 1.2vw;
+  font-size: 1.3vw;
 }
 
 header #title h1 {

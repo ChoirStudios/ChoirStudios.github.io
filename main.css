@@ -41,11 +41,6 @@ main section content p {
   color: var(--6b1ee82f-3cb6-4887-B0FD-57c6d8aeea60);
 }
 
-* a:hover, a:visited, a:link {
-  color: var(--a4a08165-7fb4-4139-a577-6eef8a521f9f);
-  text-decoration: underline;
-}
-
 /* Behaviour */
 main {
   display: flex;

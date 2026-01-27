@@ -7,6 +7,12 @@ footer * {
   color: var(--d53153c5-2bb6-4e80-8a94-25578440e6e1);
 }
 
+
+footer a {
+  color: var(--a4a08165-7fb4-4139-a577-6eef8a521f9f);
+  text-decoration: underline;
+}
+
 footer nav ul {
   list-style: none;
 }
@@ -17,7 +23,6 @@ footer nav ul a:hover {
 
 footer nav ul li span {
   text-decoration: line-through;
-
 }
 
 footer nav button {
