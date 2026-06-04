@@ -1,6 +1,6 @@
-﻿# Kyubion Studios Website - Code Consistency & Coherence Guide
+﻿# Choir Studios Website - Code Consistency & Coherence Guide
 
-This document provides comprehensive guidelines for maintaining consistency and coherence across the Kyubion Studios website codebase. All developers must adhere to these standards when contributing to this project.
+This document provides comprehensive guidelines for maintaining consistency and coherence across the Choir Studios website codebase. All developers must adhere to these standards when contributing to this project.
 
 ---
 
@@ -183,7 +183,7 @@ Use semantic elements appropriately:
 **Example**:
 ```html
 <section id="title">
-  <h1>KYUBION STUDIOS</h1>
+  <h1>CHOIR STUDIOS</h1>
 </section>
 
 <img src="wilyicaro_waving.png" alt="Wilyicaro character waving" />
@@ -257,7 +257,7 @@ All pages MUST follow this structure:
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="footer.css" />
     <link rel="website icon" type="png" href="logo.png" />
-    <title>Kyubion Studios - [Page Name]</title>
+    <title>Choir Studios - [Page Name]</title>
   </head>
   <body>
     <header include-html="header.html"></header>
@@ -428,7 +428,7 @@ Before committing changes, verify:
 - **Markup**: HTML5
 - **Styling**: CSS3 (Custom Properties, Flexbox, Responsive Units)
 - **Interactivity**: Vanilla JavaScript (ES6+)
-- **Fonts**: Kanit, Public Sans (Google Fonts)
+- **Fonts**: Merriweather, Public Sans (Google Fonts)
 - **Component Loading**: Fetch API with error handling
 - **Responsive Design**: Viewport-relative units (vw/vh)
 
@@ -467,5 +467,5 @@ Before committing changes, verify:
 
 **Last Updated**: January 2026  
 **Version**: 1.0  
-**Project**: KYBSTU Website - Kyubion Studios
+**Project**: KYBSTU Website - Choir Studios
 

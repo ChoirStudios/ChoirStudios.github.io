@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
 /* Reset */
 * {
   margin: 0;
   padding: 0;
-  font-family: "Kanit";
+  font-family: "Merriweather", serif;
   border: 0;
   text-decoration: none;
 }
@@ -12,33 +12,47 @@
 /* Variables */
 :root {
   /* Theme */
-  --a4a08165-7fb4-4139-a577-6eef8a521f9f: #e6a4f4;
-  --0cbc23af-08ba-4603-b0d4-faf972f132fb: #6e0f83;
+  --a4a08165-7fb4-4139-a577-6eef8a521f9f: #D6DEEF;
+  --0cbc23af-08ba-4603-b0d4-faf972f132fb: #375188;
   --d53153c5-2bb6-4e80-8a94-25578440e6e1: #fefefe;
-  --b6fb159a-a975-467c-ace7-66acf494b503: #0b020e;
-  --6b1ee82f-3cb6-4887-b0fd-57c6d8aeea60: #000000;
-  --34ace198-814d-4bdd-a836-f8d0bd5d73f1: #fdf8ff;
-  --ebc70766-d6f5-475d-8006-409067ec6ef6: #322738;
-  --fab086d1-ad61-4538-9c7f-c8f016f77d40: #f8f4fa;
+  --b6fb159a-a975-467c-ace7-66acf494b503: #292929;
+  --6b1ee82f-3cb6-4887-b0fd-57c6d8aeea60: #1B1B1B;
+  --34ace198-814d-4bdd-a836-f8d0bd5d73f1: #F5F7F9;
+  --ebc70766-d6f5-475d-8006-409067ec6ef6: #3F464D;
+  --fab086d1-ad61-4538-9c7f-c8f016f77d40: #ECEEF4;
 }
 
 /* Styling */
-main {
-  color: var(--6b1ee82f-3cb6-4887-b0fd-57c6d8aeea60);
-  background: var(--fab086d1-ad61-4538-9c7f-c8f016f77d40);
+@media (prefers-color-scheme: light) {
+  main {
+    color: var(--6b1ee82f-3cb6-4887-b0fd-57c6d8aeea60);
+    background: var(--34ace198-814d-4bdd-a836-f8d0bd5d73f1);
+  }
+
+  main section content p {
+    font-weight: 250;
+    color: var(--6b1ee82f-3cb6-4887-B0FD-57c6d8aeea60);
+  }
+
+  * section p {
+    color: var(--6b1ee82f-3cb6-4887-B0FD-57c6d8aeea60);
+  }
 }
 
-main section:nth-child(even) {
-  background: var(--34ace198-814d-4bdd-a836-f8d0bd5d73f1);
-}
+@media (prefers-color-scheme: dark) {
+  main {
+    color: var(--34ace198-814d-4bdd-a836-f8d0bd5d73f1);
+    background: var(--b6fb159a-a975-467c-ace7-66acf494b503);
+  }
 
-main section content p {
-  font-weight: 250;
-  color: var(--6b1ee82f-3cb6-4887-B0FD-57c6d8aeea60);
-}
+  main section content p {
+    font-weight: 250;
+    color: var(--6b1ee82f-3cb6-4887-B0FD-57c6d8aeea60);
+  }
 
-* section p {
-  color: var(--6b1ee82f-3cb6-4887-B0FD-57c6d8aeea60);
+  * section p {
+    color: var(--6b1ee82f-3cb6-4887-B0FD-57c6d8aeea60);
+  }
 }
 
 /* Behaviour */
